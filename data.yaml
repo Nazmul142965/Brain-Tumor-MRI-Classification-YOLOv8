@@ -1,0 +1,11 @@
+# YOLOv8 Brain Tumor MRI Classification Configuration
+path: ./yolo_dataset # root directory of the dataset
+train: train # train images (relative to 'path')
+val: val # val images (relative to 'path')
+
+# Class Names
+names:
+  0: glioma
+  1: meningioma
+  2: notumor
+  3: pituitary
